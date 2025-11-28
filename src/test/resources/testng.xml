@@ -1,0 +1,17 @@
+<suite name="SauceDemo Tests" parallel="tests" thread-count="3">
+    <test name="UC1">
+        <classes>
+            <class name="com.saucedemo.test.LoginEmptyCredentialsTest"/>
+        </classes>
+    </test>
+    <test name="UC2">
+        <classes>
+            <class name="com.saucedemo.test.LoginEmptyPasswordTest"/>
+        </classes>
+    </test>
+    <test name="UC3">
+        <classes>
+            <class name="com.saucedemo.test.LoginSuccessTest"/>
+        </classes>
+    </test>
+</suite>

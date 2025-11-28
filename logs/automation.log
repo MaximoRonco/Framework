@@ -1,0 +1,2033 @@
+[2025-11-28 02:58:26,232] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 02:58:26,447] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 02:58:26,693] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 02:58:26,715] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 02:58:30,009] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 02:58:30,019] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 02:58:30,104] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 02:58:30,105] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 02:58:30,948] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 02:58:30,949] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 02:58:31,133] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 02:58:31,134] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 02:58:31,163] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 02:58:31,188] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 02:58:31,290] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 02:58:31,290] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 02:58:31,337] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 02:58:31,337] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 02:58:31,410] [INFO ] LoginEmptyCredentialsTest - === FIN: Test Login con credenciales vacías - PASÓ ===
+[2025-11-28 02:58:31,414] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 02:58:32,889] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 02:58:32,891] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 02:58:32,907] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 02:58:32,917] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 02:58:36,013] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 02:58:36,014] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 02:58:36,015] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 02:58:36,015] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 02:58:36,511] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 02:58:36,511] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 02:58:36,696] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 02:58:36,696] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 02:58:36,714] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 02:58:36,825] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 02:58:36,826] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 02:58:36,861] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 02:58:36,862] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 02:58:36,862] [INFO ] LoginEmptyPasswordTest - === FIN: Test Login con password vacío - PASÓ ===
+[2025-11-28 02:58:36,864] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 02:58:37,965] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 02:58:37,967] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 02:58:37,978] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 02:58:37,988] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 02:58:40,933] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 02:58:40,934] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso ===
+[2025-11-28 02:58:40,934] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 02:58:40,935] [INFO ] LoginSuccessTest - Abriendo página de login
+[2025-11-28 02:58:41,497] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 02:58:41,498] [INFO ] LoginSuccessTest - Ingresando credenciales válidas
+[2025-11-28 02:58:41,644] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 02:58:41,644] [INFO ] LoginSuccessTest - Clickeando botón login
+[2025-11-28 02:58:41,768] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 02:58:41,770] [INFO ] LoginSuccessTest - Validando que la URL cambió
+[2025-11-28 02:58:41,774] [INFO ] LoginSuccessTest - === FIN: Test Login exitoso - PASÓ ===
+[2025-11-28 02:58:41,775] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 02:58:42,823] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:03:26,463] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 03:03:26,675] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:03:26,908] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:03:26,928] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:03:30,176] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:03:35,181] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 03:03:35,219] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:03:35,219] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 03:03:35,781] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:03:35,781] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 03:03:35,916] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:03:35,916] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 03:03:35,942] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 03:03:35,957] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 03:03:36,046] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:03:36,046] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 03:03:36,104] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 03:03:36,104] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 03:03:36,174] [INFO ] LoginEmptyCredentialsTest - === FIN: Test Login con credenciales vacías - PASÓ ===
+[2025-11-28 03:03:36,177] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:03:37,013] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:03:37,015] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:03:37,034] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:03:37,046] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:03:39,902] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:03:44,906] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 03:03:44,907] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:03:44,907] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 03:03:45,308] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:03:45,308] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 03:03:45,451] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:03:45,451] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 03:03:45,465] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 03:03:45,547] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:03:45,547] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 03:03:45,579] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 03:03:45,580] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 03:03:45,581] [INFO ] LoginEmptyPasswordTest - === FIN: Test Login con password vacío - PASÓ ===
+[2025-11-28 03:03:45,583] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:03:46,603] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:03:46,604] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:03:46,614] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:03:46,621] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:03:49,708] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:03:54,710] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso ===
+[2025-11-28 03:03:54,710] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:03:54,710] [INFO ] LoginSuccessTest - Abriendo página de login
+[2025-11-28 03:03:55,121] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:03:55,121] [INFO ] LoginSuccessTest - Ingresando credenciales válidas
+[2025-11-28 03:03:55,264] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:03:55,265] [INFO ] LoginSuccessTest - Clickeando botón login
+[2025-11-28 03:03:55,371] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:03:55,372] [INFO ] LoginSuccessTest - Validando que la URL cambió
+[2025-11-28 03:03:55,376] [INFO ] LoginSuccessTest - === FIN: Test Login exitoso - PASÓ ===
+[2025-11-28 03:03:55,377] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:03:56,250] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:05:28,013] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 03:05:28,274] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:05:28,533] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:05:28,555] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:05:32,041] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:05:37,050] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 03:05:37,069] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:05:37,069] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 03:05:37,533] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:05:37,534] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 03:05:37,672] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:05:37,672] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 03:05:37,694] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 03:05:37,708] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 03:05:37,784] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:05:37,784] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 03:05:37,830] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 03:05:37,830] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 03:05:37,896] [INFO ] LoginEmptyCredentialsTest - === FIN: Test Login con credenciales vacías - PASÓ ===
+[2025-11-28 03:05:37,898] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:05:38,750] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:05:38,753] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:05:38,769] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:05:38,781] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:05:41,595] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:05:46,599] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 03:05:46,599] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:05:46,599] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 03:05:46,979] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:05:46,979] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 03:05:47,137] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:05:47,137] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 03:05:47,150] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 03:05:47,235] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:05:47,236] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 03:05:47,269] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 03:05:47,269] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 03:05:47,270] [INFO ] LoginEmptyPasswordTest - === FIN: Test Login con password vacío - PASÓ ===
+[2025-11-28 03:05:47,271] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:05:48,114] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:05:48,116] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:05:48,128] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:05:48,139] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:05:51,222] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:05:56,225] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso ===
+[2025-11-28 03:05:56,226] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:05:56,226] [INFO ] LoginSuccessTest - Abriendo página de login
+[2025-11-28 03:05:56,690] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:05:56,690] [INFO ] LoginSuccessTest - Ingresando credenciales válidas
+[2025-11-28 03:05:56,819] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:05:56,820] [INFO ] LoginSuccessTest - Clickeando botón login
+[2025-11-28 03:05:56,927] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:05:56,927] [INFO ] LoginSuccessTest - Validando que la URL cambió
+[2025-11-28 03:05:56,930] [INFO ] LoginSuccessTest - === FIN: Test Login exitoso - PASÓ ===
+[2025-11-28 03:05:56,931] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:05:57,774] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:20:10,567] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 03:20:10,786] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:20:11,774] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:20:11,797] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:20:15,139] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:20:15,143] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 03:20:15,169] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:20:15,170] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 03:20:16,332] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:20:16,333] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 03:20:16,522] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:20:16,522] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 03:20:16,551] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 03:20:16,593] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 03:20:16,677] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:20:16,677] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 03:20:16,730] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 03:20:16,730] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 03:20:16,823] [INFO ] LoginEmptyCredentialsTest - === FIN: Test Login con credenciales vacías - PASÓ ===
+[2025-11-28 03:20:16,829] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:20:17,927] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:20:17,929] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:20:17,938] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:20:17,946] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:20:20,889] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:20:20,890] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 03:20:20,891] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:20:20,891] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 03:20:21,367] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:20:21,368] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 03:20:21,512] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:20:21,513] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 03:20:21,526] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 03:20:21,608] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:20:21,608] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 03:20:21,643] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 03:20:21,643] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 03:20:21,643] [INFO ] LoginEmptyPasswordTest - === FIN: Test Login con password vacío - PASÓ ===
+[2025-11-28 03:20:21,644] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:20:22,736] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:20:22,740] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:20:22,749] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:20:22,758] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:20:25,738] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:20:25,741] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'standard_user'
+[2025-11-28 03:20:25,742] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:20:26,264] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:20:26,447] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:20:26,571] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:20:26,575] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:20:26,575] [INFO ] LoginSuccessTest - Login exitoso para 'standard_user'
+[2025-11-28 03:20:26,577] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'standard_user'
+[2025-11-28 03:20:26,578] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:20:27,641] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:20:27,643] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:20:27,652] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:20:27,659] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:20:30,987] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:20:30,988] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'locked_out_user'
+[2025-11-28 03:20:30,988] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:20:31,643] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:20:31,932] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:20:32,053] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:20:32,061] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/'
+[2025-11-28 03:20:32,176] [ERROR] LoginPage - Error capturado: Epic sadface: Sorry, this user has been locked out.
+[2025-11-28 03:20:32,177] [INFO ] LoginSuccessTest - Login fallido correctamente para 'locked_out_user'
+[2025-11-28 03:20:32,177] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'locked_out_user'
+[2025-11-28 03:20:32,178] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:20:33,404] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:20:33,405] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:20:33,418] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:20:33,428] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:20:36,966] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:20:36,967] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'problem_user'
+[2025-11-28 03:20:36,968] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:20:37,566] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:20:37,853] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:20:38,031] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:20:38,037] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:20:38,038] [INFO ] LoginSuccessTest - Login exitoso para 'problem_user'
+[2025-11-28 03:20:38,039] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'problem_user'
+[2025-11-28 03:20:38,041] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:20:39,169] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:20:39,170] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:20:39,185] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:20:39,197] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:20:42,596] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:20:42,598] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'performance_glitch_user'
+[2025-11-28 03:20:42,599] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:20:43,233] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:20:43,584] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:20:48,723] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:20:48,728] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:20:48,728] [INFO ] LoginSuccessTest - Login exitoso para 'performance_glitch_user'
+[2025-11-28 03:20:48,728] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'performance_glitch_user'
+[2025-11-28 03:20:48,729] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:20:49,604] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:20:49,605] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:20:49,615] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:20:49,627] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:20:53,041] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:20:53,043] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'error_user'
+[2025-11-28 03:20:53,043] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:20:53,747] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:20:54,015] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:20:54,181] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:20:54,253] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:20:54,255] [INFO ] LoginSuccessTest - Login exitoso para 'error_user'
+[2025-11-28 03:20:54,255] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'error_user'
+[2025-11-28 03:20:54,256] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:20:56,947] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:20:56,949] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:20:56,958] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:20:56,965] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:21:00,607] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:21:00,609] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'visual_user'
+[2025-11-28 03:21:00,609] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:21:01,282] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:21:01,615] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:21:01,823] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:21:01,830] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:21:01,831] [INFO ] LoginSuccessTest - Login exitoso para 'visual_user'
+[2025-11-28 03:21:01,831] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'visual_user'
+[2025-11-28 03:21:01,832] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:21:03,256] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:46:22,617] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 03:46:22,841] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:46:23,846] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 03:46:23,871] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 03:46:25,046] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:46:25,048] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 03:46:25,070] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:46:25,070] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 03:46:25,457] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:46:25,459] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 03:46:26,148] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:46:26,148] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 03:46:26,205] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 03:46:26,243] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 03:46:26,358] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:46:26,359] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 03:46:36,791] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 03:46:36,791] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 03:46:36,846] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:46:37,017] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:46:37,018] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:46:37,031] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 03:46:37,041] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 03:46:37,855] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:46:37,856] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 03:46:37,856] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:46:37,857] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 03:46:38,247] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:46:38,248] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 03:46:38,530] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:46:38,530] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 03:46:38,569] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 03:46:38,688] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:46:38,688] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 03:46:49,101] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 03:46:49,102] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 03:46:49,104] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:46:49,293] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:46:49,298] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:46:49,306] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 03:46:49,315] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 03:46:50,191] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:46:50,194] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'standard_user'
+[2025-11-28 03:46:50,194] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:46:50,616] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:46:50,936] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:46:51,078] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:46:51,093] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:46:51,094] [INFO ] LoginSuccessTest - Login exitoso para 'standard_user'
+[2025-11-28 03:46:51,094] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'standard_user'
+[2025-11-28 03:46:51,095] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:46:51,348] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:46:51,349] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:46:51,362] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 03:46:51,374] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 03:46:52,409] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:46:52,410] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'locked_out_user'
+[2025-11-28 03:46:52,412] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:46:52,806] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:46:53,080] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:46:53,185] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:46:53,194] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/'
+[2025-11-28 03:46:53,287] [ERROR] LoginPage - Error capturado: Epic sadface: Sorry, this user has been locked out.
+[2025-11-28 03:46:53,287] [INFO ] LoginSuccessTest - Login fallido correctamente para 'locked_out_user'
+[2025-11-28 03:46:53,287] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'locked_out_user'
+[2025-11-28 03:46:53,288] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:46:53,460] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:46:53,462] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:46:53,472] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 03:46:53,485] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 03:46:54,407] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:46:54,408] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'problem_user'
+[2025-11-28 03:46:54,409] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:46:54,804] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:46:55,085] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:46:55,227] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:46:55,235] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:46:55,235] [INFO ] LoginSuccessTest - Login exitoso para 'problem_user'
+[2025-11-28 03:46:55,235] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'problem_user'
+[2025-11-28 03:46:55,236] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:46:55,438] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:46:55,439] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:46:55,452] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 03:46:55,463] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 03:46:56,294] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:46:56,295] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'performance_glitch_user'
+[2025-11-28 03:46:56,295] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:46:56,367] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:46:57,051] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:47:02,166] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:47:02,172] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:47:02,172] [INFO ] LoginSuccessTest - Login exitoso para 'performance_glitch_user'
+[2025-11-28 03:47:02,172] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'performance_glitch_user'
+[2025-11-28 03:47:02,173] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:47:02,327] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:47:02,328] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:47:02,336] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 03:47:02,346] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 03:47:03,233] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:47:03,234] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'error_user'
+[2025-11-28 03:47:03,234] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:47:03,627] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:47:03,912] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:47:04,081] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:47:04,092] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:47:04,092] [INFO ] LoginSuccessTest - Login exitoso para 'error_user'
+[2025-11-28 03:47:04,092] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'error_user'
+[2025-11-28 03:47:04,095] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:47:04,330] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:47:04,331] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:47:04,341] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 03:47:04,350] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 03:47:05,232] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:47:05,232] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'visual_user'
+[2025-11-28 03:47:05,233] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:47:05,615] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:47:05,891] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:47:06,012] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:47:06,022] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:47:06,022] [INFO ] LoginSuccessTest - Login exitoso para 'visual_user'
+[2025-11-28 03:47:06,022] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'visual_user'
+[2025-11-28 03:47:06,025] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:47:06,218] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:47:45,074] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 03:47:45,300] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:47:45,521] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:47:45,540] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:47:48,994] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:47:49,030] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 03:47:49,077] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:47:49,077] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 03:47:50,381] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:47:50,383] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 03:47:51,092] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:47:51,092] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 03:47:51,144] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 03:47:51,172] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 03:47:51,310] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:47:51,310] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 03:47:51,404] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 03:47:51,405] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 03:47:51,622] [INFO ] LoginEmptyCredentialsTest - === FIN: Test Login con credenciales vacías - PASÓ ===
+[2025-11-28 03:47:51,629] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:47:53,329] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:47:53,331] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:47:53,357] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:47:53,373] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:47:57,033] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:47:57,035] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 03:47:57,036] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:47:57,037] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 03:47:57,619] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:47:57,619] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 03:47:58,054] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:47:58,054] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 03:47:58,080] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 03:47:58,248] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:47:58,248] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 03:47:58,330] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 03:47:58,330] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 03:47:58,331] [INFO ] LoginEmptyPasswordTest - === FIN: Test Login con password vacío - PASÓ ===
+[2025-11-28 03:47:58,332] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:47:59,992] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:47:59,999] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:48:00,028] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:48:00,041] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:48:04,421] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:48:04,426] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'standard_user'
+[2025-11-28 03:48:04,429] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:48:05,111] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:48:05,440] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:48:05,728] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:48:05,743] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:48:05,745] [INFO ] LoginSuccessTest - Login exitoso para 'standard_user'
+[2025-11-28 03:48:05,745] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'standard_user'
+[2025-11-28 03:48:05,761] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:48:07,367] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:48:07,369] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:48:07,397] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:48:07,413] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:48:11,930] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:48:11,934] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'locked_out_user'
+[2025-11-28 03:48:11,935] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:48:12,757] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:48:13,079] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:48:13,222] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:48:13,228] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/'
+[2025-11-28 03:48:13,358] [ERROR] LoginPage - Error capturado: Epic sadface: Sorry, this user has been locked out.
+[2025-11-28 03:48:13,358] [INFO ] LoginSuccessTest - Login fallido correctamente para 'locked_out_user'
+[2025-11-28 03:48:13,358] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'locked_out_user'
+[2025-11-28 03:48:13,360] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:48:14,879] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:48:14,881] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:48:14,898] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:48:14,918] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:48:19,286] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:48:19,289] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'problem_user'
+[2025-11-28 03:48:19,309] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:48:20,015] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:48:20,389] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:48:20,600] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:48:20,607] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:48:20,607] [INFO ] LoginSuccessTest - Login exitoso para 'problem_user'
+[2025-11-28 03:48:20,607] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'problem_user'
+[2025-11-28 03:48:20,610] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:48:22,200] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:48:22,200] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:48:22,224] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:48:22,246] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:48:26,491] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:48:26,492] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'performance_glitch_user'
+[2025-11-28 03:48:26,497] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:48:27,177] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:48:27,556] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:48:32,727] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:48:32,733] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:48:32,733] [INFO ] LoginSuccessTest - Login exitoso para 'performance_glitch_user'
+[2025-11-28 03:48:32,733] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'performance_glitch_user'
+[2025-11-28 03:48:32,734] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:48:34,065] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:48:34,065] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:48:34,073] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:48:34,104] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:48:38,024] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:48:38,025] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'error_user'
+[2025-11-28 03:48:38,025] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:48:38,569] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:48:38,855] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:48:39,020] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:48:39,021] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:48:39,021] [INFO ] LoginSuccessTest - Login exitoso para 'error_user'
+[2025-11-28 03:48:39,021] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'error_user'
+[2025-11-28 03:48:39,026] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:48:40,654] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:48:40,655] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:48:40,679] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:48:40,721] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:48:45,233] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:48:45,235] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'visual_user'
+[2025-11-28 03:48:45,236] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:48:45,962] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:48:46,406] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:48:46,586] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:48:46,592] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:48:46,593] [INFO ] LoginSuccessTest - Login exitoso para 'visual_user'
+[2025-11-28 03:48:46,593] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'visual_user'
+[2025-11-28 03:48:46,593] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:48:48,300] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:49:13,845] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 03:49:14,052] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:49:14,300] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:49:14,319] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:49:17,552] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:49:17,558] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 03:49:17,590] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:49:17,590] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 03:49:18,101] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:49:18,102] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 03:49:18,317] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:49:18,317] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 03:49:18,351] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 03:49:18,383] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 03:49:18,541] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:49:18,541] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 03:49:18,600] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 03:49:18,600] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 03:49:18,688] [INFO ] LoginEmptyCredentialsTest - === FIN: Test Login con credenciales vacías - PASÓ ===
+[2025-11-28 03:49:18,691] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:49:19,770] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:49:19,772] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:49:19,787] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:49:19,799] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:49:39,131] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 03:49:39,334] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:49:39,564] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 03:49:39,584] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 03:49:40,810] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:49:40,815] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 03:49:40,839] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:49:40,840] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 03:49:41,340] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:49:41,340] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 03:49:41,785] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:49:41,786] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 03:49:41,852] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 03:49:41,904] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 03:49:42,084] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:49:42,084] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 03:49:52,545] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 03:49:52,545] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 03:49:52,608] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:49:52,784] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:49:52,785] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:49:52,800] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 03:49:52,812] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 03:49:53,647] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:49:53,649] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 03:49:53,650] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:49:53,650] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 03:49:54,038] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:49:54,038] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 03:49:54,320] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:49:54,321] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 03:49:54,382] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 03:49:54,502] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:49:54,503] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 03:49:58,664] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 03:49:58,664] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 03:49:58,667] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:49:58,743] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:49:58,746] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:49:58,756] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 03:49:58,764] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 03:49:59,598] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:49:59,602] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'standard_user'
+[2025-11-28 03:49:59,602] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:50:00,005] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:50:00,280] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:50:00,418] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:50:00,437] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:50:00,438] [INFO ] LoginSuccessTest - Login exitoso para 'standard_user'
+[2025-11-28 03:50:00,438] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'standard_user'
+[2025-11-28 03:50:00,449] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:50:00,631] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:50:00,633] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:50:00,646] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 03:50:00,658] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 03:58:06,772] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 03:58:07,068] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:58:07,377] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 03:58:07,405] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 03:58:08,910] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:58:08,916] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 03:58:08,944] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:58:08,945] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 03:58:10,126] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:58:10,127] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 03:58:10,435] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:58:10,435] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 03:58:10,478] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 03:58:10,520] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 03:58:10,651] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:58:10,651] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 03:58:46,409] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 03:58:46,663] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:58:46,904] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:58:46,927] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:58:50,031] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:58:50,041] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 03:58:50,099] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:58:50,100] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 03:58:50,585] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:58:50,586] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 03:58:50,800] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:58:50,800] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 03:58:50,847] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 03:58:50,873] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 03:58:50,967] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:58:50,968] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 03:58:51,034] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 03:58:51,034] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 03:58:51,113] [INFO ] LoginEmptyCredentialsTest - === FIN: Test Login con credenciales vacías - PASÓ ===
+[2025-11-28 03:58:51,118] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:58:52,261] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:58:52,263] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:58:52,278] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:58:52,289] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:58:55,230] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:58:55,236] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 03:58:55,238] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:58:55,239] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 03:58:55,935] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:58:55,935] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 03:58:56,249] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:58:56,250] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 03:58:56,283] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 03:58:56,393] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:58:56,394] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 03:58:56,444] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 03:58:56,446] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 03:58:56,446] [INFO ] LoginEmptyPasswordTest - === FIN: Test Login con password vacío - PASÓ ===
+[2025-11-28 03:58:56,448] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:58:57,881] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:58:57,885] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:58:57,896] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:58:57,906] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:59:01,335] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:59:01,340] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'standard_user'
+[2025-11-28 03:59:01,340] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:59:01,947] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:59:02,248] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:59:02,451] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:59:02,459] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:59:02,460] [INFO ] LoginSuccessTest - Login exitoso para 'standard_user'
+[2025-11-28 03:59:02,460] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'standard_user'
+[2025-11-28 03:59:02,463] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:59:03,705] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:59:03,706] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:59:03,715] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:59:03,724] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:59:06,976] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:59:06,979] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'locked_out_user'
+[2025-11-28 03:59:06,982] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:59:07,659] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:59:08,016] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:59:08,153] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:59:08,158] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/'
+[2025-11-28 03:59:08,291] [ERROR] LoginPage - Error capturado: Epic sadface: Sorry, this user has been locked out.
+[2025-11-28 03:59:08,292] [INFO ] LoginSuccessTest - Login fallido correctamente para 'locked_out_user'
+[2025-11-28 03:59:08,292] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'locked_out_user'
+[2025-11-28 03:59:08,295] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:59:09,447] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:59:09,448] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:59:09,463] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:59:09,475] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:59:13,655] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:59:13,657] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'problem_user'
+[2025-11-28 03:59:13,657] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:59:14,524] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:59:14,942] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:59:15,213] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:59:15,230] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:59:15,231] [INFO ] LoginSuccessTest - Login exitoso para 'problem_user'
+[2025-11-28 03:59:15,231] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'problem_user'
+[2025-11-28 03:59:15,233] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:59:17,172] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:59:17,173] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:59:17,184] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:59:17,199] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:59:20,959] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:59:20,962] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'performance_glitch_user'
+[2025-11-28 03:59:20,962] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:59:21,620] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:59:21,939] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:59:27,100] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:59:27,106] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:59:27,107] [INFO ] LoginSuccessTest - Login exitoso para 'performance_glitch_user'
+[2025-11-28 03:59:27,107] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'performance_glitch_user'
+[2025-11-28 03:59:27,108] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:59:28,133] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:59:28,134] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:59:28,142] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:59:28,151] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:59:31,799] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:59:31,800] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'error_user'
+[2025-11-28 03:59:31,801] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:59:32,672] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:59:33,180] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:59:33,412] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:59:33,423] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:59:33,423] [INFO ] LoginSuccessTest - Login exitoso para 'error_user'
+[2025-11-28 03:59:33,423] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'error_user'
+[2025-11-28 03:59:33,424] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:59:35,021] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 03:59:35,024] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 03:59:35,036] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 03:59:35,047] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 03:59:41,021] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 03:59:41,022] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'visual_user'
+[2025-11-28 03:59:41,023] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 03:59:42,106] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 03:59:42,655] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 03:59:42,934] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 03:59:42,957] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 03:59:42,958] [INFO ] LoginSuccessTest - Login exitoso para 'visual_user'
+[2025-11-28 03:59:42,958] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'visual_user'
+[2025-11-28 03:59:42,959] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 03:59:44,592] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:01:35,780] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 04:01:36,021] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:01:36,021] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:01:36,021] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:01:36,292] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:01:36,292] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:01:36,292] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:01:36,332] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:01:36,332] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:01:36,334] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:01:40,852] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:01:40,857] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 04:01:40,899] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:01:40,899] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:01:42,094] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:01:42,098] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'standard_user'
+[2025-11-28 04:01:42,098] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:01:42,195] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:01:42,196] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:01:42,515] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:01:42,516] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 04:01:42,517] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:01:42,517] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 04:01:42,868] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:01:42,869] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:01:42,894] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:01:43,175] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:01:43,259] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:01:43,259] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:01:43,392] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 04:01:43,392] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:01:43,524] [INFO ] LoginEmptyPasswordTest - === FIN: Test Login con password vacío - PASÓ ===
+[2025-11-28 04:01:43,541] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:01:43,625] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:01:43,657] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:01:43,657] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 04:01:43,921] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:01:43,930] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:01:43,930] [INFO ] LoginSuccessTest - Login exitoso para 'standard_user'
+[2025-11-28 04:01:43,931] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'standard_user'
+[2025-11-28 04:01:43,933] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:01:44,376] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:01:44,376] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 04:01:44,407] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 04:01:44,439] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 04:01:44,574] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:01:44,575] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 04:01:44,703] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 04:01:44,703] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 04:01:44,703] [INFO ] LoginEmptyCredentialsTest - === FIN: Test Login con credenciales vacías - PASÓ ===
+[2025-11-28 04:01:44,705] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:01:46,218] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:01:46,220] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:01:46,238] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:01:46,241] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:01:46,258] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:01:46,299] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:01:49,836] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:01:49,838] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'locked_out_user'
+[2025-11-28 04:01:49,838] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:01:50,440] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:01:50,745] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:01:50,949] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:01:50,958] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/'
+[2025-11-28 04:01:51,051] [ERROR] LoginPage - Error capturado: Epic sadface: Sorry, this user has been locked out.
+[2025-11-28 04:01:51,053] [INFO ] LoginSuccessTest - Login fallido correctamente para 'locked_out_user'
+[2025-11-28 04:01:51,053] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'locked_out_user'
+[2025-11-28 04:01:51,054] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:01:52,456] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:01:52,457] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:01:52,470] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:01:52,486] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:01:56,146] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:01:56,148] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'problem_user'
+[2025-11-28 04:01:56,148] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:01:56,803] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:01:57,147] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:01:57,355] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:01:57,360] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:01:57,362] [INFO ] LoginSuccessTest - Login exitoso para 'problem_user'
+[2025-11-28 04:01:57,363] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'problem_user'
+[2025-11-28 04:01:57,365] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:01:58,680] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:01:58,681] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:01:58,696] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:01:58,708] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:02:02,079] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:02:02,080] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'performance_glitch_user'
+[2025-11-28 04:02:02,081] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:02:02,716] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:02:03,055] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:02:08,268] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:02:08,272] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:02:08,273] [INFO ] LoginSuccessTest - Login exitoso para 'performance_glitch_user'
+[2025-11-28 04:02:08,273] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'performance_glitch_user'
+[2025-11-28 04:02:08,273] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:02:09,328] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:02:09,329] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:02:09,339] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:02:09,346] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:02:12,869] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:02:12,870] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'error_user'
+[2025-11-28 04:02:12,870] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:02:13,591] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:02:13,913] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:02:14,087] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:02:14,095] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:02:14,095] [INFO ] LoginSuccessTest - Login exitoso para 'error_user'
+[2025-11-28 04:02:14,095] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'error_user'
+[2025-11-28 04:02:14,097] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:02:15,486] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:02:15,487] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:02:15,500] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:02:15,511] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:02:18,898] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:02:18,902] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'visual_user'
+[2025-11-28 04:02:18,902] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:02:19,569] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:02:19,873] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:02:20,038] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:02:20,048] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:02:20,048] [INFO ] LoginSuccessTest - Login exitoso para 'visual_user'
+[2025-11-28 04:02:20,048] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'visual_user'
+[2025-11-28 04:02:20,052] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:02:21,575] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:02:35,328] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 04:02:35,651] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:02:35,651] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:02:35,651] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:02:35,978] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:02:35,978] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:02:35,978] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:02:36,027] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:02:36,027] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:02:36,027] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:02:43,179] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:02:43,195] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'standard_user'
+[2025-11-28 04:02:43,255] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:02:43,850] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:02:43,856] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 04:02:43,857] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:02:43,858] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:02:45,106] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:02:45,632] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:02:45,632] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:02:46,138] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:02:46,141] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 04:02:46,142] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:02:46,143] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 04:02:46,471] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:02:46,879] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:02:46,892] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:02:47,145] [INFO ] LoginSuccessTest - Login exitoso para 'standard_user'
+[2025-11-28 04:02:47,146] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'standard_user'
+[2025-11-28 04:02:47,161] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:02:47,266] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:02:47,267] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:02:47,298] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:02:47,423] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:02:47,424] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:02:47,499] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 04:02:47,503] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:02:47,505] [INFO ] LoginEmptyPasswordTest - === FIN: Test Login con password vacío - PASÓ ===
+[2025-11-28 04:02:47,513] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:02:47,941] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:02:47,942] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 04:02:48,701] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:02:48,702] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 04:02:48,748] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 04:02:48,784] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 04:02:48,943] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:02:48,943] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 04:02:49,023] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 04:02:49,024] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 04:02:49,024] [INFO ] LoginEmptyCredentialsTest - === FIN: Test Login con credenciales vacías - PASÓ ===
+[2025-11-28 04:02:49,026] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:02:49,886] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:02:50,055] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:02:50,056] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:02:50,085] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:02:50,147] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:02:51,045] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:02:54,425] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:02:54,427] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'locked_out_user'
+[2025-11-28 04:02:54,428] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:02:55,136] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:02:55,666] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:02:55,804] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:02:55,811] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/'
+[2025-11-28 04:02:55,867] [ERROR] LoginPage - Error capturado: Epic sadface: Sorry, this user has been locked out.
+[2025-11-28 04:02:55,868] [INFO ] LoginSuccessTest - Login fallido correctamente para 'locked_out_user'
+[2025-11-28 04:02:55,869] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'locked_out_user'
+[2025-11-28 04:02:55,872] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:02:57,243] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:02:57,245] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:02:57,261] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:02:57,275] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:03:01,440] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:03:01,441] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'problem_user'
+[2025-11-28 04:03:01,442] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:03:02,119] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:03:02,586] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:03:02,738] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:03:02,764] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:03:02,765] [INFO ] LoginSuccessTest - Login exitoso para 'problem_user'
+[2025-11-28 04:03:02,765] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'problem_user'
+[2025-11-28 04:03:02,767] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:03:04,316] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:03:04,317] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:03:04,337] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:03:04,353] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:03:08,396] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:03:08,398] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'performance_glitch_user'
+[2025-11-28 04:03:08,399] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:03:09,052] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:03:09,386] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:03:14,530] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:03:14,535] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:03:14,535] [INFO ] LoginSuccessTest - Login exitoso para 'performance_glitch_user'
+[2025-11-28 04:03:14,535] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'performance_glitch_user'
+[2025-11-28 04:03:14,536] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:03:15,591] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:03:15,592] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:03:15,605] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:03:15,614] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:03:19,273] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:03:19,276] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'error_user'
+[2025-11-28 04:03:19,278] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:03:19,916] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:03:20,187] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:03:20,330] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:03:20,333] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:03:20,333] [INFO ] LoginSuccessTest - Login exitoso para 'error_user'
+[2025-11-28 04:03:20,334] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'error_user'
+[2025-11-28 04:03:20,335] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:03:21,446] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:03:21,447] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:03:21,457] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:03:21,467] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:03:25,311] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:03:25,319] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'visual_user'
+[2025-11-28 04:03:25,320] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:03:25,962] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:03:26,257] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:03:26,418] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:03:26,423] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:03:26,423] [INFO ] LoginSuccessTest - Login exitoso para 'visual_user'
+[2025-11-28 04:03:26,424] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'visual_user'
+[2025-11-28 04:03:26,425] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:03:27,787] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:04:50,256] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 04:04:50,463] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:04:50,463] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:04:50,463] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:04:50,687] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:04:50,687] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:04:50,687] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:04:50,722] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:04:50,722] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:04:50,722] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:04:52,381] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:04:52,381] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:04:52,390] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 04:04:52,392] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'standard_user'
+[2025-11-28 04:04:52,426] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:04:52,426] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:04:52,426] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 04:04:52,617] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:04:52,617] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 04:04:52,619] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:04:52,619] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:04:53,025] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:04:53,025] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 04:04:53,042] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:04:53,156] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:04:53,156] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:04:53,616] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:04:53,652] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:04:53,652] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:04:53,716] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:04:53,732] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:04:53,732] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 04:04:53,791] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 04:04:53,890] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:04:53,917] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:04:53,918] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:04:53,966] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:04:54,139] [INFO ] LoginSuccessTest - Login exitoso para 'standard_user'
+[2025-11-28 04:04:54,140] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'standard_user'
+[2025-11-28 04:04:54,143] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:04:54,178] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 04:04:54,399] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:04:54,399] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 04:04:54,815] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:04:54,816] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:04:54,834] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:04:54,850] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:04:55,926] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:04:55,927] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'locked_out_user'
+[2025-11-28 04:04:55,927] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:04:56,412] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:04:57,005] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:04:57,133] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:04:57,141] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/'
+[2025-11-28 04:04:57,199] [ERROR] LoginPage - Error capturado: Epic sadface: Sorry, this user has been locked out.
+[2025-11-28 04:04:57,199] [INFO ] LoginSuccessTest - Login fallido correctamente para 'locked_out_user'
+[2025-11-28 04:04:57,199] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'locked_out_user'
+[2025-11-28 04:04:57,200] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:04:57,444] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:04:57,446] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:04:57,460] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:04:57,479] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:04:58,538] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:04:58,539] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'problem_user'
+[2025-11-28 04:04:58,540] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:04:58,620] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:04:59,349] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:04:59,524] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:04:59,536] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:04:59,537] [INFO ] LoginSuccessTest - Login exitoso para 'problem_user'
+[2025-11-28 04:04:59,537] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'problem_user'
+[2025-11-28 04:04:59,539] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:04:59,904] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:04:59,905] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:04:59,917] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:04:59,929] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:05:00,999] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:05:01,000] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'performance_glitch_user'
+[2025-11-28 04:05:01,001] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:05:01,420] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:05:01,793] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:05:04,138] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 04:05:04,139] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:05:04,149] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:05:04,474] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 04:05:04,474] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 04:05:04,476] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:11:52,280] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 04:11:52,522] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:11:52,522] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:11:52,522] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:11:52,756] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:11:52,756] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:11:52,756] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:11:52,787] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:11:52,787] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:11:52,787] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:11:57,437] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:11:57,442] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 04:11:57,481] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:11:57,483] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:11:58,723] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:11:58,724] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 04:11:58,728] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:11:58,730] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 04:11:59,021] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:11:59,021] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:11:59,393] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:11:59,395] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'standard_user'
+[2025-11-28 04:11:59,397] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:11:59,556] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:11:59,560] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 04:11:59,646] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:11:59,646] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:11:59,690] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:11:59,845] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:11:59,846] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:11:59,913] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 04:11:59,914] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:12:00,042] [INFO ] LoginEmptyPasswordTest - === FIN: Test Login con password vacío - PASÓ ===
+[2025-11-28 04:12:00,054] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:12:00,196] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:12:00,197] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 04:12:00,240] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 04:12:00,281] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 04:12:00,422] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:12:00,423] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 04:12:00,479] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 04:12:00,480] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 04:12:00,480] [INFO ] LoginEmptyCredentialsTest - === FIN: Test Login con credenciales vacías - PASÓ ===
+[2025-11-28 04:12:00,483] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:12:00,627] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:12:01,188] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:12:01,410] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:12:01,415] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:12:01,416] [INFO ] LoginSuccessTest - Login exitoso para 'standard_user'
+[2025-11-28 04:12:01,416] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'standard_user'
+[2025-11-28 04:12:01,416] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:12:02,723] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:12:03,047] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:12:03,054] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:12:03,055] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:12:03,075] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:12:03,091] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:12:06,583] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:12:06,583] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'locked_out_user'
+[2025-11-28 04:12:06,584] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:12:07,141] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:12:07,389] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:12:07,513] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:12:07,521] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/'
+[2025-11-28 04:12:07,576] [ERROR] LoginPage - Error capturado: Epic sadface: Sorry, this user has been locked out.
+[2025-11-28 04:12:07,576] [INFO ] LoginSuccessTest - Login fallido correctamente para 'locked_out_user'
+[2025-11-28 04:12:07,576] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'locked_out_user'
+[2025-11-28 04:12:07,579] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:12:08,762] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:12:08,763] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:12:08,779] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:12:08,794] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:12:12,661] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:12:12,662] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'problem_user'
+[2025-11-28 04:12:12,663] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:12:13,239] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:12:13,543] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:12:13,719] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:12:13,727] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:12:13,728] [INFO ] LoginSuccessTest - Login exitoso para 'problem_user'
+[2025-11-28 04:12:13,728] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'problem_user'
+[2025-11-28 04:12:13,729] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:12:15,305] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:12:15,306] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:12:15,323] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:12:15,339] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:12:19,279] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:12:19,279] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'performance_glitch_user'
+[2025-11-28 04:12:19,280] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:12:19,917] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:12:20,309] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:12:25,469] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:12:25,474] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:12:25,475] [INFO ] LoginSuccessTest - Login exitoso para 'performance_glitch_user'
+[2025-11-28 04:12:25,475] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'performance_glitch_user'
+[2025-11-28 04:12:25,475] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:12:26,521] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:12:26,522] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:12:26,537] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:12:26,552] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:12:30,418] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:12:30,419] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'error_user'
+[2025-11-28 04:12:30,419] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:12:31,108] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:12:31,443] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:12:31,579] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:12:31,647] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:12:31,648] [INFO ] LoginSuccessTest - Login exitoso para 'error_user'
+[2025-11-28 04:12:31,648] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'error_user'
+[2025-11-28 04:12:31,650] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:12:32,800] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:12:32,802] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:12:32,814] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:12:32,824] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:12:36,204] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:12:36,209] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'visual_user'
+[2025-11-28 04:12:36,210] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:12:36,787] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:12:37,075] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:12:37,240] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:12:37,246] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:12:37,247] [INFO ] LoginSuccessTest - Login exitoso para 'visual_user'
+[2025-11-28 04:12:37,247] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'visual_user'
+[2025-11-28 04:12:37,248] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:12:39,102] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:13:05,517] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:13:05,554] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:13:05,805] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:13:05,826] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:13:09,011] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:13:09,029] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 04:13:09,118] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:13:09,119] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 04:13:09,613] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:13:09,614] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 04:13:09,831] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:13:09,832] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 04:13:09,865] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 04:13:09,885] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 04:13:10,025] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:13:10,025] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 04:13:10,085] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 04:13:10,085] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 04:13:10,158] [INFO ] LoginEmptyCredentialsTest - === FIN: Test Login con credenciales vacías - PASÓ ===
+[2025-11-28 04:13:10,165] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:13:11,068] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:13:32,540] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:13:32,582] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:13:32,815] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:13:32,836] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:13:36,378] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:13:36,388] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'standard_user'
+[2025-11-28 04:13:36,426] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:13:36,924] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:13:37,081] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:13:37,203] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:13:37,259] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/inventory.html'
+[2025-11-28 04:13:37,346] [INFO ] LoginSuccessTest - Login exitoso para 'standard_user'
+[2025-11-28 04:13:37,346] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'standard_user'
+[2025-11-28 04:13:37,353] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:13:38,284] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:13:38,286] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:13:38,298] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:13:38,309] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:13:41,923] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:13:41,927] [INFO ] LoginSuccessTest - === INICIO: Test Login exitoso - username: 'locked_out_user'
+[2025-11-28 04:13:41,927] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:13:42,572] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:13:43,039] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:13:43,207] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:13:43,221] [INFO ] LoginSuccessTest - URL tras login: 'https://www.saucedemo.com/'
+[2025-11-28 04:13:43,364] [ERROR] LoginPage - Error capturado: Epic sadface: Sorry, this user has been locked out.
+[2025-11-28 04:13:43,364] [INFO ] LoginSuccessTest - Login fallido correctamente para 'locked_out_user'
+[2025-11-28 04:13:43,364] [INFO ] LoginSuccessTest - === FIN: Test Login - username: 'locked_out_user'
+[2025-11-28 04:13:43,367] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:13:44,890] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:13:44,891] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:13:44,906] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:13:44,917] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:13:56,519] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:13:56,603] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:13:56,986] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:13:57,020] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:14:01,464] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:14:01,500] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 04:14:01,621] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:14:01,647] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:14:02,414] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:14:02,415] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:14:02,766] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:14:02,766] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:14:02,792] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:14:02,908] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:14:02,908] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:14:03,016] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 04:14:03,016] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:14:03,154] [INFO ] LoginEmptyPasswordTest - === FIN: Test Login con password vacío - PASÓ ===
+[2025-11-28 04:14:03,161] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:14:05,031] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:14:31,105] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:14:31,151] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:14:31,409] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:14:31,430] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:14:32,601] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:14:32,604] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 04:14:32,622] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:14:32,622] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:14:33,176] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:14:33,177] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:14:33,470] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:14:33,470] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:14:33,505] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:14:33,651] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:14:33,652] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:14:43,684] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 04:14:43,684] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:14:43,742] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:14:44,045] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:17:24,283] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:17:24,319] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:17:24,552] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:17:24,570] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:17:25,719] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:17:25,720] [INFO ] LoginEmptyPasswordTest - === INICIO: Test Login con password vacío ===
+[2025-11-28 04:17:25,740] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:17:25,740] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:17:26,536] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:17:26,537] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:17:26,848] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:17:26,848] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:17:26,885] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:17:27,013] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:17:27,013] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:17:37,377] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 04:17:37,377] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:17:37,420] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:17:37,576] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:17:58,353] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:17:58,386] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:17:58,601] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:17:58,623] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:17:59,726] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:17:59,729] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 04:17:59,748] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:17:59,748] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 04:18:00,245] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:18:00,245] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 04:18:00,623] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:18:00,623] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 04:18:00,727] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 04:18:00,790] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 04:18:00,945] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:18:00,945] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 04:18:06,409] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:18:06,449] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:18:06,686] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:18:06,712] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:18:07,926] [INFO ] CommonConditions - ========== Driver inicializado correctamente ==========
+[2025-11-28 04:18:07,930] [INFO ] LoginEmptyCredentialsTest - === INICIO: Test Login con credenciales vacías ===
+[2025-11-28 04:18:07,952] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:18:07,952] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 04:18:08,421] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:18:08,421] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 04:18:08,726] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:18:08,726] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 04:18:08,762] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 04:18:08,799] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 04:18:08,931] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:18:08,932] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 04:18:11,342] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 04:18:11,342] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 04:18:11,406] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:18:11,565] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:18:19,310] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 04:18:19,311] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 04:18:19,355] [INFO ] CommonConditions - ========== TEARDOWN: Cerrando driver ==========
+[2025-11-28 04:18:19,484] [INFO ] CommonConditions - ========== Driver cerrado correctamente ==========
+[2025-11-28 04:20:21,489] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:20:21,527] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:20:32,330] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:20:32,364] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:20:48,797] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:20:48,831] [INFO ] CommonConditions - ========== SETUP: Inicializando driver ==========
+[2025-11-28 04:37:51,801] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemo - BACKUP\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 04:37:52,025] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:37:52,025] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:37:52,025] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:37:53,083] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:37:53,084] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:37:53,093] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:37:53,116] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:37:53,116] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:37:53,116] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:37:57,175] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:37:57,180] [INFO ] LoginEmptyCredentialsTest - Inicio: Test Login con credenciales vacías
+[2025-11-28 04:37:57,366] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:37:57,367] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 04:37:58,483] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:37:58,483] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 04:37:58,870] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:37:58,871] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 04:37:58,991] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 04:37:59,043] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 04:37:59,159] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:37:59,160] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 04:37:59,214] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 04:37:59,214] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 04:37:59,314] [INFO ] LoginEmptyCredentialsTest - Fin: Test Login con credenciales vacías - PASÓ
+[2025-11-28 04:37:59,317] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:38:01,101] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:38:01,109] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:38:01,110] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:38:01,892] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:38:02,364] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:38:02,644] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:38:02,645] [INFO ] LoginEmptyPasswordTest - Inicio: Test Login con password vacío
+[2025-11-28 04:38:02,645] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:38:02,645] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:38:02,806] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:38:02,813] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:38:02,814] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:38:02,815] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:38:03,332] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:38:03,332] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:38:03,740] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:38:03,741] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:38:03,761] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:38:03,889] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:38:03,889] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:38:03,933] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 04:38:03,934] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:38:03,934] [INFO ] LoginEmptyPasswordTest - Fin: Test Login con password vacío - PASÓ
+[2025-11-28 04:38:03,935] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:38:04,305] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:38:05,175] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:38:05,176] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:38:05,193] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:38:05,206] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:38:05,817] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:38:09,538] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:38:09,539] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:38:09,541] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:38:10,267] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:38:10,661] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:38:10,779] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:38:10,830] [ERROR] LoginPage - Error capturado: Epic sadface: Sorry, this user has been locked out.
+[2025-11-28 04:38:10,830] [INFO ] LoginSuccessTest - Login fallido
+[2025-11-28 04:38:10,830] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:38:10,832] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:38:12,397] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:38:12,399] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:38:12,414] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:38:12,431] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:38:16,453] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:38:16,454] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:38:16,456] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:38:17,147] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:38:17,608] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:38:17,840] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:38:17,845] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:38:17,845] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:38:17,847] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:38:19,512] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:38:19,512] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:38:19,528] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:38:19,543] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:38:23,475] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:38:23,477] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:38:23,478] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:38:24,194] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:38:24,527] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:38:29,654] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:38:29,661] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:38:29,661] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:38:29,663] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:38:30,739] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:38:30,740] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:38:30,752] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:38:30,766] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:38:34,491] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:38:34,496] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:38:34,498] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:38:35,127] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:38:35,433] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:38:35,615] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:38:35,622] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:38:35,622] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:38:35,623] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:38:36,819] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:38:36,820] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:38:36,830] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:38:36,840] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:38:40,373] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:38:40,373] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:38:40,375] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:38:41,010] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:38:41,288] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:38:41,488] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:38:41,495] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:38:41,495] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:38:41,496] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:38:42,627] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:47:15,422] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:47:15,460] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:47:15,774] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:47:15,808] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:47:19,727] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:47:19,736] [INFO ] LoginEmptyCredentialsTest - Inicio: Test Login con credenciales vacías
+[2025-11-28 04:47:19,781] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:47:19,782] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 04:47:20,659] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:47:20,659] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 04:47:20,907] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:47:20,908] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 04:47:20,955] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 04:47:20,979] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 04:47:21,090] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:47:21,091] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 04:47:21,209] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 04:47:21,209] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 04:47:21,348] [INFO ] LoginEmptyCredentialsTest - Fin: Test Login con credenciales vacías - PASÓ
+[2025-11-28 04:47:21,353] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:47:22,752] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:47:52,051] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:47:52,081] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:47:52,286] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:47:52,305] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:47:55,561] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:47:55,567] [INFO ] LoginEmptyPasswordTest - Inicio: Test Login con password vacío
+[2025-11-28 04:47:55,598] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:47:55,599] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:47:56,184] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:47:56,185] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:47:56,512] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:47:56,512] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:47:56,547] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:47:56,674] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:47:56,674] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:47:56,738] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 04:47:56,738] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:47:56,908] [INFO ] LoginEmptyPasswordTest - Fin: Test Login con password vacío - PASÓ
+[2025-11-28 04:47:56,912] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:47:58,221] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:48:07,643] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:48:07,710] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:48:08,076] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:48:08,108] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:48:12,539] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:48:12,546] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:48:12,592] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:48:13,532] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:48:13,772] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:48:13,976] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:48:14,140] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:48:14,141] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:48:14,145] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:48:15,794] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:48:15,796] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:48:15,814] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:48:15,829] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:48:19,953] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:48:19,955] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:48:19,956] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:48:20,721] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:48:21,157] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:48:21,299] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:48:21,384] [ERROR] LoginPage - Error capturado: Epic sadface: Sorry, this user has been locked out.
+[2025-11-28 04:48:21,384] [INFO ] LoginSuccessTest - Login fallido
+[2025-11-28 04:48:21,384] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:48:21,386] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:48:22,676] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:48:22,678] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:48:22,689] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:48:22,699] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:48:26,625] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:48:26,628] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:48:26,630] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:48:27,466] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:48:27,828] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:48:28,015] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:48:28,023] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:48:28,023] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:48:28,025] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:48:29,176] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:48:29,177] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:48:29,187] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:48:29,199] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:48:32,798] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:48:32,799] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:48:32,799] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:48:33,500] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:48:33,885] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:48:39,026] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:48:39,031] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:48:39,031] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:48:39,033] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:48:39,953] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:48:39,954] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:48:39,964] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:48:39,973] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:48:43,424] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:48:43,425] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:48:43,425] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:48:44,050] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:48:44,330] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:48:44,500] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:48:44,508] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:48:44,508] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:48:44,510] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:48:45,655] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:48:45,657] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:48:45,672] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:48:45,685] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:48:49,093] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:48:49,096] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:48:49,097] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:48:49,733] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:48:50,088] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:48:50,245] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:48:50,250] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:48:50,251] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:48:50,253] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:48:51,426] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:49:21,355] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemoFramework\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 04:49:21,624] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:49:21,624] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:49:21,624] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:49:21,933] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:49:21,933] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:49:21,933] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:49:21,966] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:49:21,966] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:49:21,967] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:49:27,063] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:49:27,069] [INFO ] LoginEmptyPasswordTest - Inicio: Test Login con password vacío
+[2025-11-28 04:49:27,121] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:49:27,122] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:49:28,404] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:49:28,408] [INFO ] LoginEmptyCredentialsTest - Inicio: Test Login con credenciales vacías
+[2025-11-28 04:49:28,408] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:49:28,409] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 04:49:28,764] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:49:28,765] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:49:29,602] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:49:29,603] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 04:49:29,969] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:49:29,969] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:49:30,017] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:49:30,071] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:49:30,072] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 04:49:30,210] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 04:49:30,269] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 04:49:30,279] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:49:30,280] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:49:30,427] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:49:30,428] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 04:49:30,521] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 04:49:30,522] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:49:30,551] [ERROR] LoginPage - Error capturado: Epic sadface: Username is required
+[2025-11-28 04:49:30,551] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 04:49:30,777] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:49:30,786] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:49:30,786] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:49:30,848] [INFO ] LoginEmptyPasswordTest - Fin: Test Login con password vacío - PASÓ
+[2025-11-28 04:49:30,848] [INFO ] LoginEmptyCredentialsTest - Fin: Test Login con credenciales vacías - PASÓ
+[2025-11-28 04:49:30,851] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:49:30,851] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:49:31,926] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:49:32,578] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:49:32,784] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:49:32,790] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:49:32,790] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:49:32,792] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:49:33,905] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:49:34,005] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:49:35,707] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:49:35,709] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:49:35,728] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:49:35,746] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:49:40,045] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:49:40,047] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:49:40,050] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:49:40,724] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:49:41,047] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:49:41,225] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:49:41,299] [ERROR] LoginPage - Error capturado: Epic sadface: Sorry, this user has been locked out.
+[2025-11-28 04:49:41,300] [INFO ] LoginSuccessTest - Login fallido
+[2025-11-28 04:49:41,300] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:49:41,301] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:49:42,693] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:49:42,694] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:49:42,710] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:49:42,724] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:49:46,461] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:49:46,462] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:49:46,464] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:49:47,155] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:49:47,504] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:49:47,739] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:49:47,750] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:49:47,750] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:49:47,753] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:49:49,575] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:49:49,576] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:49:49,591] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:49:49,604] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:49:53,192] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:49:53,193] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:49:53,193] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:49:53,815] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:49:54,139] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:49:59,294] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:49:59,301] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:49:59,301] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:49:59,303] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:50:00,369] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:50:00,371] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:50:00,382] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:50:00,395] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:50:04,438] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:50:04,439] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:50:04,441] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:50:05,123] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:50:05,462] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:50:05,615] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:50:05,621] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:50:05,621] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:50:05,623] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:50:07,125] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:50:07,127] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:50:07,136] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:50:07,147] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:50:10,961] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:50:10,962] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:50:10,964] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:50:11,658] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:50:12,087] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:50:12,350] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:50:12,355] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:50:12,355] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:50:12,356] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:50:13,894] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:51:14,836] [WARN ] TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\FrameworkTask\saucedemoFramework\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+[2025-11-28 04:51:15,101] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:51:15,101] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:51:15,101] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:51:16,230] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:51:16,230] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:51:16,232] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:51:16,253] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:51:16,253] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:51:16,253] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:51:18,418] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:51:18,418] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:51:18,418] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:51:18,426] [INFO ] LoginEmptyCredentialsTest - Inicio: Test Login con credenciales vacías
+[2025-11-28 04:51:18,445] [INFO ] LoginEmptyPasswordTest - Inicio: Test Login con password vacío
+[2025-11-28 04:51:18,448] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:51:18,449] [INFO ] LoginEmptyCredentialsTest - Abriendo página de login
+[2025-11-28 04:51:18,453] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:51:18,453] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:51:18,469] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:51:18,469] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:51:18,676] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:51:18,677] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:51:19,066] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:51:19,494] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:51:19,610] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:51:19,611] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:51:19,670] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:51:19,778] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:51:19,778] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:51:19,782] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:51:19,783] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:51:20,081] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:51:20,082] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:51:20,132] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:51:20,132] [INFO ] LoginEmptyCredentialsTest - Ingresando credenciales válidas
+[2025-11-28 04:51:20,554] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:51:20,555] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:51:20,573] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:51:20,598] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:51:20,608] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:51:20,609] [INFO ] LoginEmptyCredentialsTest - Limpiando username
+[2025-11-28 04:51:20,672] [INFO ] LoginEmptyCredentialsTest - Limpiando password
+[2025-11-28 04:51:20,720] [INFO ] LoginEmptyCredentialsTest - Clickeando botón login
+[2025-11-28 04:51:20,912] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:51:20,913] [INFO ] LoginEmptyCredentialsTest - Obteniendo mensaje de error
+[2025-11-28 04:51:21,547] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:51:21,548] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:51:21,549] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:51:21,999] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:51:22,331] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:51:22,423] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:51:22,657] [ERROR] LoginPage - Error capturado: Epic sadface: Sorry, this user has been locked out.
+[2025-11-28 04:51:22,657] [INFO ] LoginSuccessTest - Login fallido
+[2025-11-28 04:51:22,657] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:51:22,658] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:51:22,960] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:51:22,962] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:51:22,975] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:51:22,989] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:51:23,853] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:51:23,854] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:51:23,855] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:51:24,337] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:51:24,628] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:51:24,763] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:51:24,771] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:51:24,772] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:51:24,773] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:51:24,978] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:51:24,980] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:51:24,995] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:51:25,008] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:51:25,957] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:51:25,958] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:51:25,962] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:51:26,449] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:51:26,862] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:51:30,659] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 04:51:30,659] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:51:30,672] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:51:31,019] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 04:51:31,020] [INFO ] LoginEmptyCredentialsTest - Validando mensaje de error
+[2025-11-28 04:51:31,022] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:51:31,416] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:51:32,025] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:51:32,036] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:51:32,036] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:51:32,038] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:51:32,363] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:51:32,364] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:51:32,381] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:51:32,404] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:51:32,792] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:51:33,447] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:51:33,448] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:51:33,449] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:51:33,996] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:51:34,330] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:51:34,484] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:51:34,494] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:51:34,495] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:51:34,496] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:51:34,738] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:51:34,740] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:51:34,750] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:51:34,759] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:51:35,568] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:51:35,569] [INFO ] LoginSuccessTest - Inicio: Test Login exitoso
+[2025-11-28 04:51:35,570] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:51:35,667] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:51:36,382] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:51:36,551] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:51:36,563] [INFO ] LoginSuccessTest - Login exitoso
+[2025-11-28 04:51:36,563] [INFO ] LoginSuccessTest - Fin: Test Login Success
+[2025-11-28 04:51:36,564] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:51:36,808] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:51:45,724] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:51:45,791] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:51:46,068] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:51:46,090] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:51:47,555] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:51:47,559] [INFO ] LoginEmptyPasswordTest - Inicio: Test Login con password vacío
+[2025-11-28 04:51:47,592] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:51:47,592] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:51:48,106] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:51:48,106] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:51:48,549] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:51:48,549] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:51:48,615] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:51:48,811] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:51:48,812] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:51:53,514] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 04:51:53,514] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:51:53,581] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:51:53,635] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:52:29,581] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:52:29,610] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:52:29,812] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:52:29,830] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:52:30,915] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:52:30,920] [INFO ] LoginEmptyPasswordTest - Inicio: Test Login con password vacío
+[2025-11-28 04:52:30,940] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:52:30,941] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:52:31,455] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:52:31,455] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:52:31,743] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:52:31,743] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:52:31,780] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:52:31,896] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:52:31,898] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:52:41,926] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 04:52:41,927] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:52:41,984] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:52:42,165] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:52:57,052] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:52:57,083] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:52:57,290] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:52:57,310] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:53:00,316] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:53:00,319] [INFO ] LoginEmptyPasswordTest - Inicio: Test Login con password vacío
+[2025-11-28 04:53:00,345] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:53:00,345] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:53:00,875] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:53:00,875] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:53:01,108] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:53:01,108] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:53:01,131] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:53:01,246] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:53:01,247] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:53:01,298] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 04:53:01,298] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:53:01,389] [INFO ] LoginEmptyPasswordTest - Fin: Test Login con password vacío - PASÓ
+[2025-11-28 04:53:01,392] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:53:02,649] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:53:17,908] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:53:17,943] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:53:18,142] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:53:18,162] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:53:19,189] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:53:19,191] [INFO ] LoginEmptyPasswordTest - Inicio: Test Login con password vacío
+[2025-11-28 04:53:19,211] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:53:19,211] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:53:19,633] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:53:19,633] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:53:19,924] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:53:19,925] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:53:19,986] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:53:20,106] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:53:20,106] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:53:30,527] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 04:53:30,527] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:53:30,573] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:53:30,771] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:53:39,735] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:53:39,765] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:53:39,964] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-11-28 04:53:39,983] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\MaximoRonco\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-11-28 04:53:41,018] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:53:41,022] [INFO ] LoginEmptyPasswordTest - Inicio: Test Login con password vacío
+[2025-11-28 04:53:41,052] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:53:41,053] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:53:41,466] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:53:41,467] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:53:41,803] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:53:41,804] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:53:41,849] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:53:41,964] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:53:41,966] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:53:44,552] [WARN ] LoginPage - No se encontró mensaje de error
+[2025-11-28 04:53:44,552] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:53:44,616] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:53:44,647] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:53:58,109] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:53:58,140] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:53:58,347] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:53:58,371] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:54:01,392] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:54:01,396] [INFO ] LoginEmptyPasswordTest - Inicio: Test Login con password vacío
+[2025-11-28 04:54:01,422] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:54:01,423] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:54:01,949] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:54:01,949] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:54:02,102] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:54:02,103] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:54:02,117] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:54:02,190] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:54:02,192] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:54:02,238] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 04:54:02,238] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:54:02,318] [INFO ] LoginEmptyPasswordTest - Fin: Test Login con password vacío - PASÓ
+[2025-11-28 04:54:02,321] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:54:03,185] [INFO ] CommonConditions - ---- Se cerro el Driver ----
+[2025-11-28 04:55:02,684] [INFO ] Utils - [TestNG] Running:
+  C:\Users\MaximoRonco\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
+
+[2025-11-28 04:55:02,724] [INFO ] CommonConditions - ---- Se esta Inicializando driver ----
+[2025-11-28 04:55:02,944] [INFO ] WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 144)
+[2025-11-28 04:55:02,964] [INFO ] WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\MaximoRonco\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+[2025-11-28 04:55:06,286] [INFO ] CommonConditions - ---- Se inicializo el driver ----
+[2025-11-28 04:55:06,289] [INFO ] LoginEmptyPasswordTest - Inicio: Test Login con password vacío
+[2025-11-28 04:55:06,320] [INFO ] LoginPage - LoginPage inicializado
+[2025-11-28 04:55:06,320] [INFO ] LoginEmptyPasswordTest - Abriendo página de login
+[2025-11-28 04:55:06,762] [INFO ] LoginPage - Página de login abierta
+[2025-11-28 04:55:06,762] [INFO ] LoginEmptyPasswordTest - Ingresando credenciales válidas
+[2025-11-28 04:55:06,942] [INFO ] LoginPage - Credenciales ingresadas
+[2025-11-28 04:55:06,942] [INFO ] LoginEmptyPasswordTest - Limpiando password
+[2025-11-28 04:55:06,962] [INFO ] LoginEmptyPasswordTest - Clickeando botón login
+[2025-11-28 04:55:07,080] [INFO ] LoginPage - Click en botón Login
+[2025-11-28 04:55:07,081] [INFO ] LoginEmptyPasswordTest - Obteniendo mensaje de error
+[2025-11-28 04:55:07,127] [ERROR] LoginPage - Error capturado: Epic sadface: Password is required
+[2025-11-28 04:55:07,127] [INFO ] LoginEmptyPasswordTest - Validando mensaje de error
+[2025-11-28 04:55:07,206] [INFO ] LoginEmptyPasswordTest - Fin: Test Login con password vacío - PASÓ
+[2025-11-28 04:55:07,217] [INFO ] CommonConditions - ---- Se cerrando el driver ----
+[2025-11-28 04:55:08,149] [INFO ] CommonConditions - ---- Se cerro el Driver ----
