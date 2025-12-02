@@ -1,7 +1,9 @@
 package com.saucedemo.page;
 
 import com.saucedemo.model.User;
+import com.saucedemo.utils.ConfigReader;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa. selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa. selenium.support.FindBy;
@@ -30,47 +32,52 @@ public class LoginPage {
     @FindBy(css = "[data-test='error']")
     private WebElement errorMessage;
 
-    public LoginPage(WebDriver driver) {
+    public LoginPage(WebDriver driver, int timeout) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
         PageFactory.initElements(driver, this);
-        logger.info("LoginPage inicializado");
+        logger.info("LoginPage initialized");
     }
 
     public void open() {
-        driver.get("https://www.saucedemo.com/");
-        logger.info("Página de login abierta");
+        String baseUrl = ConfigReader.getInstance().getProperty("BASE_URL");
+        driver.get(baseUrl);
+        logger.info("LoginPage opened");
     }
 
     public void enterCredentials(User user) {
         enterUsername(user.getUsername());
         enterPassword(user.getPassword());
-        logger.info("Credenciales ingresadas");
+        logger.info("Credentials entered");
     }
 
     public void enterUsername(String name) {
         username.clear();
         username.sendKeys(name);
-        logger.debug("Username ingresado");
+        logger.debug("Username entered");
     }
 
     public void enterPassword(String pass) {
         password.clear();
         password.sendKeys(pass);
-        logger.debug("Password ingresado");
+        logger.debug("Password entered");
     }
 
     public void clickLogin() {
         loginButton.click();
-        logger.info("Click en botón Login");
+        logger.info("Click on the login button");
     }
 
     public void clearUsername() {
-        username.clear();
+        username.sendKeys(Keys.CONTROL + "a");
+        username. sendKeys(Keys.DELETE);
+        logger.debug("Username cleaned");
     }
 
     public void clearPassword() {
-        password.clear();
+        password.sendKeys(Keys.CONTROL + "a");
+        password.sendKeys(Keys.DELETE);
+        logger.debug("Password cleaned");
     }
 
 
@@ -78,10 +85,10 @@ public class LoginPage {
         try {
             wait.until(ExpectedConditions.visibilityOf(errorMessage));
             String error = errorMessage.getText();
-            logger.error("Error capturado: {}", error);
+            logger.error("Captured error: {}", error);
             return error;
         } catch (Exception e) {
-            logger.warn("No se encontró mensaje de error");
+            logger.warn("No error message found");
             return "";
         }
     }

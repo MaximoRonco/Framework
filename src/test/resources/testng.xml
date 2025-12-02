@@ -1,17 +1,36 @@
-<suite name="SauceDemo Tests" parallel="tests" thread-count="3">
-    <test name="UC1">
-        <classes>
-            <class name="com.saucedemo.test.LoginEmptyCredentialsTest"/>
-        </classes>
-    </test>
-    <test name="UC2">
-        <classes>
-            <class name="com.saucedemo.test.LoginEmptyPasswordTest"/>
-        </classes>
-    </test>
-    <test name="UC3">
-        <classes>
-            <class name="com.saucedemo.test.LoginSuccessTest"/>
-        </classes>
-    </test>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Test Suite" parallel="tests" thread-count="3">
+
+<test name="UC1 - Empty Credentials">
+    <classes>
+        <class name="com.saucedemo.test.LoginTest">
+            <methods>
+                <include name="testLoginWithEmptyCredentials"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+
+<test name="UC2 - Empty Password">
+    <classes>
+        <class name="com.saucedemo.test.LoginTest">
+            <methods>
+                <include name="testLoginWithEmptyPassword"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+
+
+<test name="UC3 - Successful Login">
+    <classes>
+        <class name="com.saucedemo.test.LoginTest">
+            <methods>
+                <include name="testLoginSuccess"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+
 </suite>

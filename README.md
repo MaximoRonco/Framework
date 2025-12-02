@@ -1,78 +1,172 @@
 # Saucedemo Automation Framework
 
-## Task Description
+## General Explanation
 
-This project is an automated test suite for [Saucedemo](https://www.saucedemo.com/) using **Selenium WebDriver**, **Maven**, **TestNG**, and **AssertJ**. It supports **parallel execution**, **logging with SLF4J**, and uses **DataProvider** to parametrize tests.
+This is an automated testing framework for [Saucedemo](https://www.saucedemo.com/). It tests the login functionality with multiple scenarios using **Selenium WebDriver**, **TestNG**, and **AssertJ**.
+
+The framework validates:
+- **UC-1:** Login with empty credentials (both username and password empty)
+- **UC-2:** Login with empty password (only password empty)
+- **UC-3:** Successful login with valid credentials (6 different users)
+
+Tests run in **parallel** with detailed **logging** for easy debugging.
 
 ---
 
-### User Cases
+## Project Structure
 
-#### UC-1: Test Login form with empty credentials
+```
+saucedemo/
+├── src/test/java/com/saucedemo/
+│   ├── test/
+│   │   ├── CommonConditions.java      ← Base class (setup/teardown)
+│   │   └── LoginTest.java             ← All 3 test cases
+│   │
+│   ├── page/
+│   │   └── LoginPage.java             ← Page Object (UI interactions)
+│   │
+│   ├── model/
+│   │   └── User.java                  ← User data model
+│   │
+│   ├── driver/
+│   │   ├── DriverManager.java         ← WebDriver singleton
+│   │   └── strategy/
+│   │       ├── BrowserStrategy.java
+│   │       ├── ChromeStrategy.java
+│   │       └── FirefoxStrategy.java
+│   │
+│   └── utils/
+│       ├── ConfigReader.java          ← Read config. properties
+│       └── DataProvider.java          ← Test data provider
+│
+├── src/test/resources/
+│   ├── config.properties              ← Configuration (browser, timeout, URL)
+│   └── log4j2.xml                     ← Logging configuration
+│
+├── testng.xml                         ← TestNG suite configuration
+├── pom.xml                            ← Maven dependencies
+└── README. md                          ← This file
+```
 
-- Type any credentials into "Username" and "Password" fields.
-- Clear the inputs.
-- Hit the "Login" button.
-- Check the error message: **"Username is required"**
+**Key Components:**
+- **LoginTest.java**: Contains all 3 test cases (UC-1, UC-2, UC-3)
+- **LoginPage.java**: Handles all interactions with the login page
+- **CommonConditions.java**: Base class with setup/teardown for all tests
+- **DriverManager.java**: Manages WebDriver instances (Singleton pattern with ThreadLocal)
+- **DataProvider.java**: Provides test data for parameterized tests
+- **config.properties**: Centralized configuration (browser, timeout, base URL)
 
-#### UC-2: Test Login form with credentials by passing Username
+---
 
-- Type any credentials into username.
-- Enter password.
-- Clear the "Password" input.
-- Hit the "Login" button.
-- Check the error message: **"Password is required"**
+## How to Run
 
-#### UC-3: Test Login form with credentials by passing Username & Password
+### Prerequisites
+- **JDK 11** or higher
+- **Maven 3.6** or higher
+- **Git**
 
-- Type credentials in username (**Accepted usernames:** `standard_user`, `locked_out_user`, `problem_user`, `performance_glitch_user`, `error_user`, `visual_user`)
-- Enter password as **secret_sauce**
-- Click on Login and validate the title **"Swag Labs"** in the dashboard.
+### Step 1: Clone the Repository
+```bash
+git clone <repository-url>
+cd saucedemo
+```
+
+### Step 2: Install Dependencies
+```bash
+mvn clean install
+```
+
+### Step 3: Run All Tests
+```bash
+mvn clean test
+```
+
+This will run all 3 test cases **in parallel** and display results.
+
+### Run Specific Test Case
+
+**UC-1: Empty credentials**
+```bash
+mvn test -Dtest=LoginTest#testLoginWithEmptyCredentials
+```
+
+**UC-2: Empty password**
+```bash
+mvn test -Dtest=LoginTest#testLoginWithEmptyPassword
+```
+
+**UC-3: Successful login**
+```bash
+mvn test -Dtest=LoginTest#testLoginSuccess
+```
+
+### Change Browser
+
+Edit `src/test/resources/config.properties`:
+```properties
+BROWSER=chrome    # Change to: chrome or firefox
+```
+
+Then run:
+```bash
+mvn clean test
+```
+
+### Change Timeout
+
+Edit `src/test/resources/config.properties`:
+```properties
+TIMEOUT=15    # Increase if tests are slow
+```
+
+---
+
+## Configuration
+
+File: `src/test/resources/config.properties`
+
+```properties
+BROWSER=firefox              # Browser: firefox or chrome
+BASE_URL=https://www.saucedemo.com/    # Application URL
+TIMEOUT=10                   # WebDriverWait timeout in seconds
+```
+
+---
+
+## Test Results
+
+After running tests, you'll see:
+```
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.234 s
+[INFO] BUILD SUCCESS
+```
+
+Detailed logs are printed in the console during execution.
 
 ---
 
 ## Features
 
-- **Parallel execution** of tests with TestNG.
-- **Logging for test steps** using SLF4J and Log4j2.
-- **DataProvider** for parameterized tests.
-- Covers all task User Cases: **UC-1**, **UC-2**, **UC-3**.
-- **Browsers:** Chrome and Firefox.
-- **Locators:** CSS selectors.
-- **Test runner:** TestNG.
-- **Assertions:** AssertJ.
-- [Optional] **Patterns:** Singleton, Adapter, Strategy (can be used and extended).
-- [Optional] **BDD approach** (if needed).
+✅ Parallel test execution (all 3 tests run simultaneously)  
+✅ Detailed logging (SLF4J + Log4j2)  
+✅ DataProvider for multiple user scenarios  
+✅ Chrome and Firefox browser support  
+✅ Centralized configuration  
+✅ Page Object Model pattern  
+✅ Singleton pattern for WebDriver management  
+✅ Strategy pattern for browser selection  
+✅ AssertJ for fluent assertions
 
 ---
 
-## How to run
+## Troubleshooting
 
-1. Install JDK 11 or higher.
-2. Install Maven.
-3. Clone this repository.
-4. To execute tests:
+**Tests fail on Chrome (fields not clearing properly):**
+→ The framework uses keyboard shortcuts (`CTRL+A` + `DELETE`) to clear fields
 
-   ```
-   mvn test
-   ```
+**Timeout errors (element not found):**
+→ Increase `TIMEOUT` in `config.properties`
 
-   This will run all tests in parallel as configured in `testng.xml`.
+**Tests running slower than expected:**
+→ Adjust `TIMEOUT` or check your internet connection
 
----
-
-## Structure
-
-- `src/test/java` : Test classes and utility code.
-- `src/test/resources/testng.xml` : TestNG suite configuration.
-- `src/test/resources/log4j2.xml` : Logger configuration.
-- `pom.xml` : Maven configuration.
-- `README.md` : Task description.
-
----
-
-## Additional Notes
-
-- Logging is provided by SLF4J with Log4j2 backend.
-- Test data is parametrized via TestNG Data Providers.
-- Patterns and BDD support can be added as per requirements.

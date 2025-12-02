@@ -1,5 +1,6 @@
 package com.saucedemo.driver;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import com.saucedemo.driver.strategy.BrowserStrategy;
 import com.saucedemo.driver.strategy.ChromeStrategy;
 import com.saucedemo.driver.strategy.FirefoxStrategy;
@@ -10,6 +11,8 @@ public class DriverManager {
 
     private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     private static BrowserStrategy browserStrategy;
+    private static final Logger logger = LoggerFactory.getLogger(DriverManager.class);
+
 
     private DriverManager() {}
 
@@ -20,7 +23,7 @@ public class DriverManager {
     public static WebDriver getInstance() {
         if (driver.get() == null) {
             if (browserStrategy == null) {
-                String browser = ConfigReader.getInstance().getProperty("browser");
+                String browser = ConfigReader.getInstance().getProperty("BROWSER");
                 if ("firefox".equalsIgnoreCase(browser)) {
                     browserStrategy = new FirefoxStrategy();
                 } else {

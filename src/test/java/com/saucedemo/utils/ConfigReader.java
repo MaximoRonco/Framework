@@ -12,7 +12,7 @@ public class ConfigReader {
         try {
             properties.load(new FileInputStream("src/test/resources/config.properties"));
         } catch (Exception e) {
-            throw new RuntimeException("No se pudo leer la configuración", e);
+            throw new RuntimeException("The configuration could not be read", e);
         }
     }
 
