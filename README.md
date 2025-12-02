@@ -164,9 +164,3 @@ Detailed logs are printed in the console during execution.
 **Tests fail on Chrome (fields not clearing properly):**
 → The framework uses keyboard shortcuts (`CTRL+A` + `DELETE`) to clear fields
 
-**Timeout errors (element not found):**
-→ Increase `TIMEOUT` in `config.properties`
-
-**Tests running slower than expected:**
-→ Adjust `TIMEOUT` or check your internet connection
-
